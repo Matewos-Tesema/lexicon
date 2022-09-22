@@ -2,23 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="lab2">
+  <meta name="description" content="Lab1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/lab1-style.css">
+  <link rel="stylesheet" href="../styles/lab2-style.css">
   <title>Inloggningsformulär</title>
 </head>
 <body>
-  <div class="outer">
+  <div class="outer">  
     <div class="inner">
-    <h1>Logga in</h1> 
+    <h1>Registreringsformulär</h1> 
       <form>
-        <label for="email">&nbsp;&nbsp;&nbsp; E-post:</label>
-        <input type="email" id="email"><br><br>
+        <label for="förnamn">Förnamn</label>
+        <input type="text" id="förnamn">
+        <label for="efternamn">Efternamn</label>
+        <input type="text" id="efternamn">
+        <label for="email">E-post:</label>
+        <input type="email" id="email">    
         <label for="lösenord">Lösenord:<label>
-        <input type="password" id="lösenord"> <br><br>
-        <input type="submit">
+        <input type="password" id="lösenord"> <br>      
+        <input id="submit" type="submit" value="Skicka">
       </form>
     </div>
-  </div>
+  </div> 
 </body>
 </html>
