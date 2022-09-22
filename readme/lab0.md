@@ -1,5 +1,3 @@
-# lexicon
-laborationer
 Page 1 of 9
 Lab: Web Fundamentals Introduction
 1. Welcome to HTML
