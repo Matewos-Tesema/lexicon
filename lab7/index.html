@@ -4,10 +4,30 @@
   <meta charset="UTF-8">
   <meta name="description" content="Lab7">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script></script>
   <title>Lab 7</title>
 </head>
 <body>
- 
+  <!--nummer 1-->
+  <p id="gammal">"Denna paragraf är gammal och måste uppdateras"</p>
+  <button onclick="ändratext()">ändratexten</button><br><br>
+  
+  <!--nummer 2-->
+  <a id="länk" href="https://example.com">Example.com</a>&nbsp;
+  <button onclick="ändralänk()">ändra länken</button>
+
+  <!--nummer 3-->
+  <h3>matta in bredd, längd och höjd</h3>
+  <form action="" id="vFrm">
+    <label for="bredd">Bredden: </label>
+    <input type="text" id="bredd" name="bredd" required><br><br>
+    <label for="längd">Längden: </label>
+    <input type="number" id="längd" name="längd" required><br><br>
+    <label for="höjd">Höjden: </label>
+    <input type="number" id="höjd" name="höjd" required><br><br>
+    <input type="submit" value = "Räkna" onclick="volym()"><br><br>
+  </form>
+  <div id="resultat"></div>
+
+  <script src="../scripts/scriptlab7.js"></script>
 </body>
 </html>
