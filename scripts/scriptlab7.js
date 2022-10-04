@@ -13,6 +13,6 @@ function volym()
   var h = document.getElementById('höjd').value;
   var v = b*l*h;
   document.getElementById('resultat').innerHTML = v;
-  return false;
+  
  } 
 
