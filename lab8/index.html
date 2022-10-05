@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Lab8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laborationsuppgift 8</title>
+</head>
+<body>
+
+  <form action="" id="frm" onsubmit="return false">
+    <label for="fnamn">Namn: </label>
+    <input type="text" id="fnamn" required><br><br>
+    <label for="enamn">Efternamn: </label>
+    <input type="text" id="enamn" name="enamn" required><br><br>
+    <label for="email">Email: </label>
+    <input type="email" id="email" name="email" required><br><br> 
+
+    <label for="stad">Välj din stad:</label>
+    <select id="stad" name="stad" required>
+      <option value="goteborg">Göteborg</option>
+      <option value="linkoping">Linköping</option>
+      <option value="malmo">Malmö</option>
+      <option value="uppsala">Uppsala</option>      
+    </select><br><br>
+
+    <p>Hur åkte du hit?</p>
+    <input type="checkbox" id="resa1" name="resa1" value="flygg">
+    <label for="resa1">Jag flög</label><br>
+    <input type="checkbox" id="resa2" name="resa2" value="kommunalt">
+    <label for="res2">Jag åkte kommunalt</label><br>
+    <input type="checkbox" id="resa3" name="resa3" value="bil">
+    <label for="resa3">Jag åkte bil</label><br><br>
+    
+    <input type="submit" value = "Skicka" onclick="minValidator()"><br><br>
+  </form>
+  <script src="../scripts/scriptlab8.js"></script>
+</body>
+</html>
