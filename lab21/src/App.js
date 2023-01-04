@@ -18,7 +18,7 @@ function App() {
       title: 'Beloved',
       author: 'Toni Morrison',
       pages: 324,
-      image: '../public/img/Beloved.jpg',
+      image: './public/img/Beloved.jpg',
     },
     {
       id: 3,
